@@ -1,9 +1,3 @@
-provider "aws" {
-  access_key = "xxxxxxxxx"
-  secret_key = "xxxxxxxxxx"
-  region     = "us-east-1"
-}
-
 module "ec2_test" {
   source        = "/home/labadmin/TerraformProject/modules/ec2_setup"
   ec2_count     = 2
